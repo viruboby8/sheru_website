@@ -1,0 +1,485 @@
+
+/* _____________________________ Media queries _____________________________ */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+  
+  .desc_row {
+    min-height: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .desc_row_saas {
+    min-height: 300px;
+  }
+
+  .saas_image {
+    max-height: 400px;
+  }
+
+  #div_footer_sheru_logo {
+    justify-content: center;
+  }
+
+  #div_footer_social {
+    justify-content: center;
+  }
+
+  #div_footer_copyright {
+    justify-content: center;
+  }
+
+  #div_cover_about_sheru {
+    margin-top: 45px;
+  }
+
+  .header_info_text {
+    font-size: 400%;
+  }
+
+  .card-carousel {
+    width: 650%;
+  }
+
+  .div_carousel_cover {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  #outmost_team_div {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .employeeName {
+    font-size: 110%;
+  }
+
+  .employeeTag {
+    font-size: 100%;
+  }
+
+  .saas_card {
+    flex-direction: column;
+  }
+
+  .saas_card {
+    width: 300px;
+  }
+
+  .slick-next {
+    display: none;
+  }
+
+  .slick-prev {
+    display: none;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 768px) {
+  
+  .desc_row {
+    min-height: 650px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .desc_row_saas {
+    min-height: 400px;
+  }
+
+  .saas_image {
+    max-height: 450px;
+  }
+
+  #div_footer_sheru_logo {
+    justify-content: center;
+  }
+
+  #div_footer_social {
+    justify-content: center;
+  }
+
+  #div_footer_copyright {
+    justify-content: center;
+  }
+
+  #div_cover_about_sheru {
+    margin-top: 45px;
+  }
+
+  .header_info_text {
+    font-size: 400%;
+  }
+
+  .card-carousel {
+    width: 500%;
+  }
+
+  .div_carousel_cover {
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+  }
+
+  #outmost_team_div {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .employeeName {
+    font-size: 110%;
+  }
+
+  .employeeTag {
+    font-size: 100%;
+  }
+
+  .saas_card {
+    flex-direction: column;
+  }
+
+  .saas_card {
+    width: 400px;
+  }
+
+  .slick-prev {
+    display: none;
+  }
+
+  .slick-next{
+    display: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+  
+  .desc_row {
+    min-height: 720px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .desc_row_saas {
+    min-height: 450px;
+  }
+
+  .saas_image {
+    max-height: 500px;
+  }
+
+  #div_footer_sheru_logo {
+    justify-content: center;
+  }
+
+  #div_footer_social {
+    justify-content: center;
+  }
+
+  
+  #div_footer_copyright {
+    justify-content: center;
+  }
+
+  #div_cover_about_sheru {
+    margin-top: 35px;
+  }
+
+  .header_info_text {
+    font-size: 450%;
+  }
+
+  .card-carousel {
+    width: 350%;
+  }
+
+  .div_carousel_cover {
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+  }
+
+  #outmost_team_div {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+
+  .employeeName {
+    font-size: 115%;
+  }
+
+  .employeeTag {
+    font-size: 105%;
+  }
+
+  .saas_card {
+    flex-direction: row-reverse;
+  }
+
+  .saas_card {
+    width: 500px;
+  }
+
+  .slick-prev {
+    display: none;
+  }
+
+  .slick-next
+  {
+    display: none;
+  }
+
+  .row_right_padding {
+    padding-right: 5%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  
+  .desc_row {
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .desc_row_saas {
+    min-height: 500px;
+  }
+
+  .saas_image {
+    max-height: 550px;
+  }
+
+  #div_footer_sheru_logo {
+    justify-content: left;
+  }
+
+  #div_footer_social {
+    justify-content: center;
+  }
+  
+  #div_footer_copyright {
+    justify-content: right;
+  }
+
+  #div_cover_about_sheru {
+    margin-top: 5px;
+  }
+
+  .header_info_text {
+    font-size: 500%;
+  }
+
+  .card-carousel {
+    width: 225%;
+  }
+
+  .div_carousel_cover {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  #outmost_team_div {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+
+  .employeeName {
+    font-size: 115%;
+  }
+
+  .employeeTag {
+    font-size: 105%;
+  }
+
+  .saas_card {
+    flex-direction: row-reverse;
+  }
+
+  .saas_card {
+    width: 600px;
+  }
+
+  .slick-prev {
+    display: block;
+  }
+
+  .slick-next {
+    display: block;
+  }
+
+  .row_right_padding {
+    padding-right: 5%;
+  }
+}
+
+
+
+
+
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  
+  .desc_row {
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .saas_image {
+    max-height: 600px;
+  }
+
+  #div_footer_sheru_logo {
+    justify-content: left;
+  }
+
+  #div_footer_social {
+    justify-content: center;
+  }
+  
+  #div_footer_copyright {
+    justify-content: right;
+  }
+
+  #div_cover_about_sheru {
+    margin-top: 5px;
+  }
+
+  .header_info_text {
+    font-size: 550%;
+  }
+
+  .card-carousel {
+    width: 150%;
+  }
+
+  .div_carousel_cover {
+    padding-left: 12.5rem;
+    padding-right: 12.5rem;
+  }
+
+  #outmost_team_div {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .employeeName {
+    font-size: 115%;
+  }
+
+  .employeeTag {
+    font-size: 105%;
+  }
+
+  .saas_card {
+    flex-direction: row-reverse;
+  }
+
+  .saas_card {
+    width: 700px;
+  }
+
+  .slick-prev {
+    display: block;
+  }
+
+  .slick-next {
+    display: block;
+  }
+
+  .row_right_padding {
+    padding-right: 7.5%;
+  }
+}
+
+
+
+
+/* Section 1 text content alignment*/
+
+@media (max-width: 992px){
+  .section_1_content{
+    display: flex;
+    /* background-color: yellow; */
+    min-height: 120px;
+    flex-direction: row;
+  }
+
+  .section_1_content_text{
+    text-align: left;
+    margin-left: 20px;
+    align-self: center;
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1500px) {
+  .section_1_content{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 150px;
+  }
+
+  .section_1_content_text{
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1500px){
+  .section_1_content{
+    /* background-color: green; */
+    align-items: center ;
+    justify-content: left;
+    display: flex;
+    min-height: 120px;
+    flex-direction: row;
+  }
+
+  .section_1_content_text{
+    text-align: left;
+    align-self: center;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+}
+
+
+
+/* //header logo */
+
+@media (max-width: 768px) {
+  #div_header_logo{
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: left; 
+  }
+}
+
+@media (min-width: 768px) {
+  #div_header_logo{
+    width: auto;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    margin: 40px;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
+  }
+}

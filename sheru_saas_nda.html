@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Title -->
+  <title>Sheru | AWS of Energy</title>
+
+
+  <!-- Links -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/font_files.css" />
+  <link rel="stylesheet" type="text/css" href="css/home/home.css" />
+  <link rel="stylesheet" type="text/css" href="css/home/media_v2.css" />
+  <link rel="stylesheet" type="text/css" href="css/footer.css" />
+  <script src="js/home.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+  <style type="text/css">
+    .station_feature_header {
+      margin-top: 50px;
+      max-width: 1600px;
+      font-size: 175%;
+      font-family: fontMedium;
+    }
+
+    .station_feature_sub_header {
+      padding-left: 10px
+    }
+
+    .station_feature_footer {
+      max-width: 1600px;
+      line-height: 1.5;
+      font-size: 175%;
+      font-family: fontRegular;
+    }
+
+    .bodyContainer {
+      width: 100%;
+      background-color: white;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    .navbarContainerOuter {
+      width: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      padding-left: 5%;
+      padding-top: 2.5%;
+      align-items: center;
+      position: relative;
+    }
+
+    .navbarAnchor {
+      text-decoration: none;
+    }
+
+    .navbarLogoContainer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .navbarLogo {
+      height: 55px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      padding: 0px;
+    }
+
+    .contentOuterContainer {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 5%;
+    }
+
+    .contentInnerContainer {
+      margin-top: 50px;
+      margin-bottom: 100px
+    }
+
+    .headerContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .headerImage {
+      margin-top: 0px;
+      width: "100%";
+      min-height: 40vh;
+      max-height: 50vh;
+    }
+
+    .headerDetailHeadline {
+      font-size: 250%;
+      margin-top: 50px
+    }
+  </style>
+
+</head>
+
+<body id="myPage" data-spy="scroll" class="bodyContainer">
+
+
+  <!--Start of Navbar -->
+  <div class="navbarContainerOuter">
+    <a class="navbarAnchor" href="index.html">
+      <div class="navbarLogoContainer">
+        <img src="image/logo/sheru_logo_new.svg" class="imageLink2 navbarLogo" />
+      </div>
+    </a>
+  </div>
+
+  <!-- End of Navbar -->
+
+
+
+  <div class="contentOuterContainer">
+    <div class="container-fluid contentInnerContainer">
+
+      <div class="container-fluid headerContainer">
+        <img src="image/contract.png" class="headerImage">
+
+        <div>
+          <p class="station_feature_header headerDetailHeadline">Sheru SaaS NDA</p>
+          <p class="station_feature_footer">Updated at 2022-05-18</p>
+        </div>
+      </div>
+
+      <p class="station_feature_header">1. Definitions.</p>
+      <div class="station_feature_sub_header">
+        <p class="station_feature_footer">a. “Confidential Information” shall mean any and all information regarding the
+          Disclosing Party or any of its affiliates, including but not limited to any product,
+          specification or other technical information, manufacturing or other process
+          information, financial information, banking information, internal financial reports,
+          customer information, general business information, software source codes, software
+          products, other documentation or information, received or obtained before, on or
+          after the date hereof, whether or not marked or designated as “Confidential,”
+          “Proprietary” or the like, in any form, whether written, oral or otherwise, including
+          electronic or optical data storage and retrieval mechanisms, and all forms of
+          communication. “Confidential Information” shall include, but not be limited to,
+          information of the Disclosing Party disclosed or observed in connection with
+          physical demonstrations, in-person conversations or telephone conversations, and
+          other means of information transfer. “Confidential Information” shall include all of
+          the foregoing, regardless of whether any such information is protected by applicable
+          trade secret or similar laws, and any analyses, codes, compilations, reports,
+          memoranda, notes or studies with respect to such information, prepared by or on
+          behalf of the Recipient Party or its Representatives.</p>
+        <br />
+        <p class="station_feature_footer">b. “Representatives” means any directors, partners, officers, employees,
+          agents,
+          independent contractors, representatives, persons or advisors of a party to this
+          Agreement, or any affiliate thereof, with affiliate including any entity controlling,
+          controlled by, or under direct or indirect common control with such party.</p>
+      </div>
+
+      <p class="station_feature_header">2. Upon the transmission, disclosure of the Confidential Information by the
+        Disclosing Party, and
+        observation or receipt by the Recipient party hereto:</p>
+
+      <div class="station_feature_sub_header">
+
+        <br />
+        <p class="station_feature_footer">a. The Recipient Party shall be forthwith bound to maintain the
+          confidentiality of the
+          Confidential Information;</p>
+        <br />
+        <p class="station_feature_footer">b. The Recipient Party will not disclose or release the Confidential
+          Information to any
+          third party, except with the Disclosing Party’s prior written authorization and
+          consent, and except to the Recipient Party’s Representatives whose duties include
+          evaluating and carrying out the business negotiations, and then only if those
+          Representatives are subject to a legally enforceable obligation to treat and maintain
+          the Confidential Information according to the terms of this Agreement;</p>
+        <br />
+        <p class="station_feature_footer">c. The Recipient Party will be responsible for ensuring that its
+          Representatives shall at
+          all times maintain the confidentiality of the Confidential Information and that the
+          Representatives strictly comply with all the provisions of this Agreement as if this
+          Agreement was executed with the Representatives themselves. Notwithstanding the
+          above, the Recipient Party shall be responsible for any disclosure of Confidential
+          Information by its Representatives in violation of this Agreement; and</p>
+        <br />
+        <p class="station_feature_footer">d. Except with the Disclosing Party’s prior written authorization and consent,
+          the
+          Recipient Party will not use any Confidential Information of the Disclosing Party for
+          its own benefit or for the benefit of others, in any manner whatsoever, other than to
+          evaluate and carry out the terms of the business negotiations.</p>
+        <br />
+        <p class="station_feature_footer">e. Except with the Disclosing Party’s prior written authorization and consent,
+          the
+          Recipient Party will not analyse samples, codes and/or material received from
+          Disclosing Party or to have them analysed by a third party.</p>
+        </p>
+      </div>
+
+      <p class="station_feature_header">
+        3. Subject to the provisions of this Agreement, any Confidential Information given or received
+        under the terms of this Agreement shall be considered to be the sole property, proprietary
+        information and/or trade secret of the Disclosing Party.
+      </p>
+
+      <p class="station_feature_header">
+        4. This Agreement shall not apply to any Confidential Information which is described in
+        subparagraphs a. through e. below:</p>
+      <br />
+      <div class="station_feature_sub_header">
+        <p class="station_feature_footer">a. The Confidential Information is or becomes available to the general public
+          otherwise
+          than through any act of the Recipient Party constituting a breach of this Agreement
+          Recipient Party, bound by a confidentiality agreement with, or other legal or fiduciary
+          or other obligation of secrecy or confidentiality to, the Disclosing Party or another
+          party with respect to such information;</p>
+        <br />
+        <p class="station_feature_footer">b. The Confidential Information is approved in writing for release by the
+          Disclosing Party;
+          or</p>
+        <br />
+        <p class="station_feature_footer">c. The Recipient Party is obligated to disclose the Confidential Information
+          under an
+          order of a court of competent jurisdiction, or pursuant to applicable law or regulation,
+          provided that the Recipient Party first gives the Disclosing Party thirty (30) days’ notice
+          of the Recipient Party’s obligation under the court order, law or regulation, and the
+          Disclosing Party shall be given an opportunity to oppose any such disclosure. In the
+          event the court order, law or regulation does not allow for thirty (30) days’ notice, the
+          Recipient Party shall give the Disclosing Party as much notice as may be reasonably
+          practical. If disclosure is required despite efforts to prevent it, the Recipient Party shall
+          disclose only that portion of the Confidential Information which, in the opinion of
+          its counsel, is required by law to be disclosed.</p>
+      </div>
+
+
+      <p class="station_feature_header">
+        5. Upon the termination of this Agreement, or earlier at the written request of the Disclosing
+        Party, the Recipient Party shall return to the Disclosing Party all documents, records, codes,
+        notes, computer media, and any other evidence of Confidential Information provided to the
+        Recipient Party by the Disclosing Party, or observed by the Recipient Party, or otherwise in its
+        possession or control, and which is in any tangible form, including all copies thereof. At the
+        same time, the Recipient Party shall also destroy any documents or other materials created by
+        the Recipient Party that contain any reference to any Confidential Information which in their
+        own right could be viewed as confidential, and the Recipient Party shall certify such destruction
+        in writing to the Disclosing Party within fifteen (15) days of its completion.
+      </p>
+
+      <p class="station_feature_header">
+        6. The Recipient Party hereby agrees and confirms to the following:-</p>
+      <br />
+      <div class="station_feature_sub_header">
+        <p class="station_feature_footer">a) That the Disclosing Party does not make any express or implied
+          representation or
+          warranty as to the accuracy or completeness of any Confidential Information;</p>
+        <br />
+        <p class="station_feature_footer">b) To assume full responsibility and liability for any and all conclusions it
+          derives from the
+          Confidential Information; and</p>
+        <br />
+        <p class="station_feature_footer">c) That the Disclosing Party shall have no liability whatsoever to the
+          Recipient or any
+          other person on any basis (including, without limitation, in contract, tort, or otherwise)
+          in connection with the use of such Confidential Information; unless expressly provided
+          by written agreement between the Parties.</p>
+      </div>
+
+      <p class="station_feature_header">
+        7. The Recipient Party acknowledges and agrees that in the event of any breach or threatened
+        breach of this Agreement by the Recipient Party or its Representatives, the Disclosing Party
+        shall be entitled to specific performance and injunctive relief as a remedy for any such
+        breach or threatened breach hereof without necessity of posting bond or other security, the
+        requirement for which is expressly waived. The Recipient Party and its Representatives, as
+        applicable, agree not to raise and hereby waive any defense to injunctive relief based on lack
+        of irreparable harm or the insufficiency of monetary damages. Such remedy shall not be
+        deemed to be the exclusive remedy for any breach of this Agreement, but shall be in
+        addition to all other remedies available to the Disclosing Party at law or in equity. The
+        Recipient Party hereby agrees to indemnify the Disclosing Party for all costs and expenses,
+        including advocate’s fees, incurred by it in enforcing this Agreement with respect to ten
+        times the value of the contract.
+      </p>
+
+      <p class="station_feature_header">
+        8. This Agreement shall be governed by and construed in accordance with the laws of India. The
+        courts at New Delhi shall have exclusive jurisdiction to adjudicate any dispute arising under or
+        in connection with this Agreement.
+      </p>
+
+      <p class="station_feature_header">
+        9. Nothing in this Agreement will be deemed by implication or otherwise to convey to the
+        Recipient Party any right or license under any patent, patent application, invention, copyright,
+        trademark, trade name or other proprietary interest owned by the Disclosing Party; nor will this
+        Agreement be deemed to provide a commitment of any kind by any party to enter into any
+        further agreement with the other party.
+      </p>
+
+      <p class="station_feature_header">
+        10. This document contains the entire and complete Agreement between the parties, and no terms
+        have been agreed upon except those expressly set forth herein. Any changes / modifications /
+        amendments to this Agreement must be in writing, signed by both the Parties. This Agreement
+        shall be binding on the Parties, and upon their respective successors, assigns, agents and
+        representatives.
+      </p>
+
+      <p class="station_feature_header">
+        11. The term of this Agreement shall be for one (01) year from the date first set forth above.
+        After the term has expired, or termination of this Agreement for any reason, all Confidential
+        Information received by the Recipient Party during the term of this Agreement shall remain
+        subject to the confidentiality and non-use provisions of this Agreement. Clauses 7, 8 and 9 shall
+        also survive the expiry of this Agreement.
+      </p>
+
+      <p class="station_feature_header">
+        12. The recitals set forth above are and for all purposes shall be interpreted as being an integral part
+        of this agreement and are incorporated in this Agreement by reference.
+      </p>
+
+    </div>
+  </div>
+
+  <style type="text/css">
+    .sectionFooter_containerOuter {
+      background-color: #f2f8fc;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+    /* Top container */
+    .sectionFooter_containerTopOuter {
+      width: 100%;
+      position: relative;
+      padding: 0px;
+      margin: 0px;
+      position: relative;
+    }
+
+    .sectionFooter_containerTopInner {
+      display: flex;
+      padding: 0px;
+      margin: 0px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .sectionFooter_containerTopContent {
+      margin: 0px;
+      visibility: visible;
+      animation-delay: 0.2s;
+      animation-name: fadeInLeft;
+      padding-left: 30px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-right: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .sectionFooter_containerTopContentGap {
+      width: 2px;
+      height: 15px;
+      margin-left: 10px;
+      margin-right: 10px;
+      background-color: gray;
+    }
+
+    .sectionFooter_containerTopContentText {
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      font-size: 150%;
+      font-weight: normal;
+    }
+
+
+    /* Bottom container */
+    .sectionFooter_containerBottom {
+      width: 100%;
+      position: relative;
+    }
+
+    /* Left side row */
+    .sectionFooter_bottomRowLeftContainerOuter {
+      display: flex;
+      padding: 0px;
+      margin: 0px;
+      position: relative;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .sectionFooter_bottomRowLeftContainerInner {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      min-height: 45px;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin: 0px;
+    }
+
+    .sectionFooter_bottomRowLeftLogoContainerOuter {
+      visibility: visible;
+      animation-delay: 0.2s;
+      animation-name: fadeInLeft;
+    }
+
+    .sectionFooter_bottomRowLeftLogoContainerInner {
+      display: flex;
+      flex-direction: row;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .sectionFooter_bottomRowLeftLogoAnchor {
+      text-decoration: none;
+    }
+
+    .sectionFooter_bottomRowLeftLogoImage {
+      height: 45px;
+      margin-left: 10px;
+      width: auto;
+    }
+
+
+    /* Middle side row */
+    .sectionFooter_bottomRowMiddleContainerOuter {
+      display: flex;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .sectionFooter_bottomRowMiddleContainerInner {
+      display: flex;
+      justify-content: center;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin: 0;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .sectionFooter_bottomRowMiddleContentContainerOuter {
+      visibility: visible;
+      animation-delay: 0.2s;
+      animation-name: fadeInLeft;
+    }
+
+    .sectionFooter_bottomRowMiddleContentContainerInner {
+      min-height: 45px;
+    }
+
+    .sectionFooter_bottomRowMiddleImage1 {
+      width: 30px;
+      height: 30px;
+    }
+
+    .sectionFooter_bottomRowMiddleImage2 {
+      width: 30px;
+      height: 30px;
+      margin-left: 10px
+    }
+
+    .sectionFooter_bottomRowMiddleImage3 {
+      width: 35px;
+      height: 35px;
+      margin-left: 10px
+    }
+
+
+
+    /* Right side row */
+    .sectionFooter_bottomRowRightContainerOuter {
+      padding: 0px;
+      margin: 0px;
+      display: flex;
+      flex-direction: row;
+      position: relative;
+    }
+
+    .sectionFooter_bottomRowRightContainerInner {
+      font-family: fontRegular;
+      display: flex;
+      flex-direction: row;
+      font-weight: normal;
+      align-items: center;
+      justify-content: right;
+      min-height: 45px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .sectionFooter_bottomRowRightText {
+      margin-left: 10px;
+      font-family: fontRegular;
+      font-weight: lighter;
+    }
+  </style>
+
+  <footer class="container-fluid sectionFooter_containerOuter">
+
+    <div class="row sectionFooter_containerTopOuter">
+      <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row sectionFooter_containerTopInner">
+        <div class="row sectionFooter_containerTopContent">
+
+          <a href="terms_conditions.html">
+            <p class="f_600 f_size_18 imageLink2 sectionFooter_containerTopContentText">Terms &amp; conditions</p>
+          </a>
+
+          <p class="sectionFooter_containerTopContentGap"></p>
+
+          <a href="privacy_policy.html">
+            <p class="f_600 f_size_18 imageLink2 sectionFooter_containerTopContentText">Privacy policy</p>
+          </a>
+
+          <p class="sectionFooter_containerTopContentGap"></p>
+
+          <a href="mailto:support@sheru.se" target="_blank">
+            <p class="f_600 f_size_18 imageLink2 sectionFooter_containerTopContentText">support@sheru.se</p>
+          </a>
+
+          <p class="sectionFooter_containerTopContentGap"></p>
+
+          <a href="tel:01141133961" target="_blank">
+            <p class="f_600 f_size_18 imageLink2 sectionFooter_containerTopContentText">011 41133961</p>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="row sectionFooter_containerBottom" id="div_cover_about_sheru">
+
+      <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 row sectionFooter_bottomRowLeftContainerOuter"
+        id="div_footer_sheru_logo">
+        <div class="sectionFooter_bottomRowLeftContainerInner">
+          <div class="f_widget company_widget wow fadeInLeft sectionFooter_bottomRowLeftLogoContainerOuter"
+            data-wow-delay="0.2s">
+            <a class="sectionFooter_bottomRowLeftLogoAnchor" href="index.html">
+              <div class="sectionFooter_bottomRowLeftLogoContainerInner">
+                <img loading="lazy" src="image/logo/sheru_logo_new.svg" class="sectionFooter_bottomRowLeftLogoImage" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 row sectionFooter_bottomRowMiddleContainerOuter"
+        id="div_footer_social">
+        <div class="sectionFooter_bottomRowMiddleContainerInner">
+          <div class="f_widget company_widget wow fadeInLeft sectionFooter_bottomRowMiddleContentContainerOuter"
+            data-wow-delay="0.2s">
+            <div class="f_social_icon sectionFooter_bottomRowMiddleContentContainerInner">
+
+              <a href="https://www.facebook.com/SheruRoars" target="_blank">
+                <img loading="lazy" src="image/social/facebook.png"
+                  class="imageLink sectionFooter_bottomRowMiddleImage1" />
+              </a>
+              <a href="https://www.instagram.com/sheruroar/" target="_blank">
+                <img loading="lazy" src="image/social/instagram.png"
+                  class="imageLink sectionFooter_bottomRowMiddleImage2" />
+              </a>
+              <a href="https://twitter.com/sheruRoar" target="_blank">
+                <img loading="lazy" src="image/social/twitter.png"
+                  class="imageLink sectionFooter_bottomRowMiddleImage2" />
+              </a>
+              <a href="https://www.linkedin.com/company/sheru/" target="_blank">
+                <img loading="lazy" src="image/social/linkedin.png"
+                  class="imageLink sectionFooter_bottomRowMiddleImage2" />
+              </a>
+              <a href="https://medium.com/@sheruenergy" target="_blank">
+                <img loading="lazy" src="image/social/medium.png"
+                  class="imageLink sectionFooter_bottomRowMiddleImage2" />
+              </a>
+              <a href="https://open.spotify.com/show/1dFLKFtTF7Umo3eakpxYM4" target="_blank">
+                <img loading="lazy" src="image/social/spotify.png"
+                  class="imageLink sectionFooter_bottomRowMiddleImage2" />
+              </a>
+              <a href="https://www.youtube.com/@sheruroar9665" target="_blank">
+                <img loading="lazy" src="image/social/youtube_v3.png"
+                  class="imageLink sectionFooter_bottomRowMiddleImage3" />
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 row sectionFooter_bottomRowRightContainerOuter"
+        id="div_footer_copyright">
+        <div class="sectionFooter_bottomRowRightContainerInner">
+          <p class="f_600 f_size_16 sectionFooter_bottomRowRightText">
+            Sheru @ 2019. All right reserved</p>
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

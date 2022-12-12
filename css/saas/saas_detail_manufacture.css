@@ -1,0 +1,322 @@
+/* Features */
+
+.feature_man_container {
+  display: flex;
+}
+
+.feature_man_image {
+  width: 70px;
+  height: 70px;
+}
+
+.feature_man_header {
+  font-size: 250%;
+  font-family: fontBold;
+  text-align: left;
+  color: #008EE1;
+}
+
+.feature_man_footer {
+  font-size: 175%;
+  font-family: fontRegular;
+  margin-top: 0px;
+  text-align: left;
+}
+
+
+/* Top sheru logo */
+
+.topSheruLogoSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  background-color: #E7EFF8;
+  padding: 0px;
+  margin: 0px;
+}
+
+.topSheruLogoSection2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  background-color: #f3fdff;
+  padding: 0px;
+  margin: 0px;
+}
+
+.topSheruLogoOuterContainer {
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  padding-left: 5%;
+  padding-top: 2.5%;
+  /* align-items: center;  */
+  position: relative;
+}
+
+.topSheruLogoContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.topSheruLogoImage {
+  height: 55px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+  transition: all .2s ease-in-out;
+}
+
+.topSheruLogoImage:hover {
+  transform: scale(1.05);
+}
+
+.topSheruLogoAnchor {
+  text-decoration: none;
+}
+
+
+
+
+/* Top banner */
+.topBannerSection {
+  background-color: #E7EFF8;
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+/* Top banner */
+.topBannerSection2 {
+  /* background-color: #E7EFF8; */
+  background-color: #f3fdff;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 100px;
+  padding-bottom: 2.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.topBannerContainer {
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.topBannerOuterContainer {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}
+
+.topBannerOuterContainer2 {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}
+
+.topBannerTextOuterContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.topBannerImageOuterContainer {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.topBannerTextOuterContainer2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.topBannerImageOuterContainer2 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.topBannerTextContainer {
+  padding-right: 5%;
+  margin-bottom: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.topBannerTextContainer2 {
+  padding-right: 5%;
+  margin-bottom: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  min-height: 300px;
+}
+
+.topBannerTextContainer3 {
+  padding-right: 5%;
+  margin-bottom: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  min-height: 300px;
+}
+
+.topBannerHeader {
+  font-size: 300%;
+  font-family: fontBold;
+  text-align: left;
+  color: #008EE1;
+}
+
+.topBannerFooter {
+  font-size: 200%;
+  font-family: fontRegular;
+  margin-top: 0px;
+  text-align: left;
+}
+
+.topBannerButton {
+  color: white;
+  font-family: fontMedium;
+  padding: 0px;
+  margin: 0px;
+}
+
+.topBannerImageContainer {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 0px;
+}
+
+.topBannerImageContainer2 {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  justify-content: space-between;
+  position: relative;
+  padding: 0px;
+  min-height: 300px;
+}
+
+.topBannerImageContainer3 {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  justify-content: space-between;
+  position: relative;
+  padding: 0px;
+  min-height: 300px;
+}
+
+.topBannerImage {
+  width: 100%;
+  object-fit: contain;
+  position: relative;
+  align-self: center;
+  min-height: 300px;
+  max-height: 350px;
+}
+
+
+/*About section */
+.aboutSection{
+  background-color:white; width:100%; padding: 5%; display: flex; flex-direction: row; justify-content: center;
+}
+
+.aboutOuterContainer {
+  position: relative; margin: 0px; padding: 0px;
+}
+
+.aboutContainer {
+  padding: 10px; margin-top:50px
+}
+
+.featureOuterContainer {
+  align-items: center; justify-content: center; margin: 0px; padding: 0px;
+}
+
+.aboutHeader {
+  font-size: 200%; font-family: fontBold; margin-top: 0px; text-align: left;
+}
+
+.aboutFooter {
+  font-size: 175%; font-family: fontRegular; margin-top: 0px; text-align: left;
+}
+
+.featureLeftOuterContainer {
+  display: flex; flex-direction: row; justify-content: left; align-items: center; margin: 0px; padding-top: 25px; padding-bottom: 25px;
+}
+
+.featureLeftContainer {
+  display: flex; flex-direction: column
+}
+
+.featureRightOuterContainer {
+  display: flex; flex-direction: row; position: relative; align-items: center; justify-content: left; margin:0px; padding-top: 25px; padding-bottom: 25px;
+}
+
+.featureRightContainer{
+  display: flex; flex-direction: column
+}

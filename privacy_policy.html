@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!-- Title -->
+	<title>Sheru | AWS of Energy</title>
+
+
+	<!-- Links -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- favicon -->
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<link rel="stylesheet" type="text/css" href="css/font_files.css" />
+	<link rel="stylesheet" type="text/css" href="css/home/home.css" />
+	<link rel="stylesheet" type="text/css" href="css/home/media_v2.css" />
+	<link rel="stylesheet" type="text/css" href="css/footer.css" />
+	<script src="js/home.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+		integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+		crossorigin="anonymous"></script>
+
+
+	<style type="text/css">
+		.station_feature_header {
+			/* margin-top: 30px; */
+			max-width: 100%;
+			font-size: 225%;
+			font-family: fontBold;
+		}
+
+		.station_feature_sub_header {
+			/* margin-top: 30px; */
+			max-width: 100%;
+			font-size: 200%;
+			font-family: fontMedium;
+		}
+
+		.station_feature_footer {
+			max-width: 100%;
+			line-height: 1.5;
+			font-size: 175%;
+			color: #383133;
+			font-family: fontRegular;
+		}
+
+		.bodyContainer {
+			width: 100%;
+			background-color: white;
+			overflow-x: hidden;
+			overflow-y: auto;
+		}
+
+		.sectionLogoContainerOuter {
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			background-color: white;
+		}
+
+		.sectionLogoContainerInner {
+			position: relative;
+			z-index: 2;
+			background-color: white;
+			padding-left: 5%;
+			padding-top: 5%;
+		}
+
+		.sectionLogoAnchor {
+			text-decoration: none;
+		}
+
+		.sectionLogoImage {
+			height: 55px;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
+			padding: 0px;
+		}
+
+		.sectionHeaderContainerOuter {
+			display: flex;
+			padding-left: 5%;
+			padding-right: 5%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.sectionHeaderImage {
+			margin-top: 20px;
+			width: 100%;
+			min-height: 200px;
+			max-height: 450px;
+		}
+
+		.sectionHeaderContainerInner {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.sectionHeaderText1 {
+			font-size: 300%;
+			margin-top: 30px;
+		}
+
+		.sectionHeaderText2 {
+			margin-top: 0px;
+		}
+
+		.sectionContentContainer {
+			width: 100%;
+			padding-left: 2.5%;
+			padding-right: 2.5%;
+			padding-top: 50px;
+		}
+
+		.sectionContentContainerLast {
+			margin-bottom: 100px;
+			width: 100%;
+			padding-left: 2.5%;
+			padding-right: 2.5%;
+			padding-top: 50px;
+		}
+
+		.mt10 {
+			margin-top: 10px;
+		}
+
+		.mt30 {
+			margin-top: 30px;
+		}
+
+		.mt5 {
+			margin-top: 5px;
+		}
+
+		.colorBlack {
+			color: black
+		}
+
+		.ml15 {
+			margin-left: 15px
+		}
+
+		.ml25 {
+			margin-left: 25px
+		}
+
+		.p10ml10 {
+			padding: 10px;
+			margin-left: 10px
+		}
+	</style>
+
+</head>
+
+<body id="myPage" data-spy="scroll" class="bodyContainer">
+
+
+	<!--Start of Navbar -->
+	<div class="container-fluid topnav row sectionLogoContainerOuter">
+		<div class="sectionLogoContainerInner">
+			<a class="sectionLogoAnchor" href="index.html">
+				<img src="image/logo/sheru_logo_new.svg" class="imageLink2 sectionLogoImage" />
+			</a>
+		</div>
+	</div>
+	<!-- End of Navbar -->
+
+
+
+
+	<div class="container-fluid sectionHeaderContainerOuter">
+		<img src="image/privacy/privacy_policy.svg" class="sectionHeaderImage">
+
+		<div class="sectionHeaderContainerInner">
+			<p class="station_feature_header sectionHeaderText1">Privacy Policy</p>
+			<p class="station_feature_footer sectionHeaderText2">Last updated: March 24, 2021</p>
+		</div>
+	</div>
+
+
+
+
+
+	<div class="sectionContentContainer">
+
+
+		<div class="container-fluid sectionContentContainer">
+			<p class="station_feature_header mt30">Definition</p>
+			<p class="station_feature_footer">This Privacy Policy describes Our policies & procedures on the collection,
+				use & disclosure of Your information when You use the Service and tells You about Your privacy rights
+				and how the law protects You. <br /> We use Your Personal data to provide and improve the Service. By
+				using the Service, You agree to the collection and use of information in accordance with this Privacy
+				Policy.</p>
+		</div>
+
+
+		<div class="container-fluid sectionContentContainer">
+			<p class="station_feature_header">Interpretation and Definitions</p>
+
+			<div class="ml25">
+				<p class="station_feature_sub_header mt10">Interpretation</p>
+				<p class="station_feature_footer">
+					The words of which the initial letter is capitalized have meanings defined under the following
+					conditions. The following definitions shall have the same meaning regardless of whether they appear
+					in singular or in plural.
+				</p>
+
+				<p class="station_feature_sub_header mt10">Definitions</p>
+				<p class="station_feature_footer">
+					For the purposes of this Privacy Policy:
+				</p>
+				<ul>
+					<li class="mt10">
+						<p class="station_feature_footer"><b class="colorBlack">Account</b> means a unique account
+							created for You to access our Service or parts of our Service.</p>
+					</li>
+					<li class="mt5">
+						<p class="station_feature_footer"><b class="colorBlack">Affiliate</b> means an entity that
+							controls, is controlled by or is under common control with a party, where "control" means
+							ownership of 50% or more of the shares, equity interest or other securities entitled to vote
+							for election of directors or other managing authority.</p>
+					</li>
+					<li class="mt5">
+						<p class="station_feature_footer"><b class="colorBlack">Application</b> means the software
+							program provided by the Company downloaded by You on any electronic device, named
+							Sheru/Sheru Ustaad/Sheru Admin/Sheru Retailer.</p>
+					</li>
+					<li class="mt5">
+						<p class="station_feature_footer"><b class="colorBlack">Company</b> (referred to as either "the
+							Company", "We", "Us" or "Our" in this Agreement) refers to Seygnux Solutions Pvt Ltd, 201,
+							Aggarwal Plaza, CU Block, Pitampura, Delhi-110034.</p>
+					</li>
+					<li>
+						<p class="station_feature_footer"><b class="colorBlack">Country</b> refers to: Delhi, India</p>
+					</li>
+					<li class="mt5">
+						<p class="station_feature_footer"><b class="colorBlack">Device</b> means any device that can
+							access the Service such as a computer, a cellphone or a digital tablet.</p>
+					</li>
+					<li class="mt5">
+						<p class="station_feature_footer"><b class="colorBlack">Personal Data</b> is any information
+							that relates to an identified or identifiable individual.</p>
+					</li>
+					<li class="mt5">
+						<p class="station_feature_footer"><b class="colorBlack">Service</b> refers to the Application.
+						</p>
+					</li>
+					<li class="mt5">
+						<p class="station_feature_footer"><b class="colorBlack">Service Provider</b> means any natural
+							or legal person who processes the data on behalf of the Company. It refers to third-party
+							companies or individuals employed by the Company to facilitate the Service, to provide the
+							Service on behalf of the Company, to perform services related to the Service or to assist
+							the Company in analyzing how the Service is used.</p>
+					</li>
+					<li mt5="mt5">
+						<p class="station_feature_footer"><b class="colorBlack">Third-party Social Media Service</b>
+							refers to any website or any social network website through which a User can log in or
+							create an account to use the Service.</p>
+					</li>
+					<li mt5="mt5">
+						<p class="station_feature_footer"><b class="colorBlack">Usage Data</b> refers to data collected
+							automatically, either generated by the use of the Service or from the Service infrastructure
+							itself (for example, the duration of a page visit).</p>
+					</li>
+					<li mt5="mt5">
+						<p class="station_feature_footer"><b class="colorBlack">You</b> means the individual accessing
+							or using the Service, or the company, or other legal entity on behalf of which such
+							individual is accessing or using the Service, as applicable.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+
+		<div class="container-fluid sectionContentContainer">
+
+			<p class="station_feature_header">Collecting of Your data</p>
+
+			<div class="ml25">
+				<p class="station_feature_sub_header mt30">Personal Data</p>
+				<p class="station_feature_footer">
+					While using Our Service, We may ask You to provide Us with certain personally identifiable
+					information that can be used to contact or identify You. Personally identifiable information may
+					include, but is not limited to:
+				<ul>
+					<li class="mt5">
+						<p class="station_feature_footer">First name and last name</p>
+					</li>
+					<li class="mt5">
+						<p class="station_feature_footer">Phone number</p>
+					</li>
+					<li class="mt5">
+						<p class="station_feature_footer">Address, State, Province, ZIP/Postal code, City</p>
+					</li>
+					<li class="mt5">
+						<p class="station_feature_footer">Usage Data</p>
+					</li>
+				</ul>
+				</p>
+
+				<p class="station_feature_sub_header mt30">Usage Data</p>
+
+				<ul>
+					<li>
+						<p class="station_feature_footer">
+							Usage Data is collected automatically when using the Service.
+						</p>
+					</li>
+
+					<li>
+						<p class="station_feature_footer mt5">
+							Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP
+							address), browser type, browser version, the pages of our Service that You visit, the time
+							and date of Your visit, the time spent on those pages, unique device identifiers and other
+							diagnostic data.
+						</p>
+					</li>
+
+					<li>
+						<p class="station_feature_footer mt5">
+							When You access the Service by or through a mobile device, We may collect certain
+							information automatically, including, but not limited to, the type of mobile device You use,
+							Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating
+							system, the type of mobile Internet browser You use, unique device identifiers and other
+							diagnostic data.
+						</p>
+					</li>
+
+					<li>
+						<p class="station_feature_footer mt5">
+							We may also collect information that Your browser sends whenever You visit our Service or
+							when You access the Service by or through a mobile device.
+						</p>
+					</li>
+				</ul>
+
+
+				<p class="station_feature_sub_header mt30">Information Collected while Using the Application</p>
+				<p class="station_feature_footer">
+					While using Our Application, in order to provide features of Our Application, We may collect, with
+					Your prior permission:</p>
+				<p class="station_feature_footer" class="p10ml10">● Information regarding your location.</p>
+				<p class="station_feature_footer">
+					We use this information to provide features of Our Service, to improve and customize Our Service.
+					The information may be uploaded to the Company's servers and/or a Service
+					Provider's server or it may be simply stored on Your device.
+					You can enable or disable access to this information at any time, through Your Device settings.
+				</p>
+
+			</div>
+
+		</div>
+
+
+		<div class="container-fluid sectionContentContainer">
+
+			<p class="station_feature_header">Use of Your Personal Data</p>
+
+			<div class="ml25">
+				<p class="station_feature_sub_header mt30">The Company may use Personal Data for the following purposes:
+				</p>
+				<p class="station_feature_footer">
+				<ul>
+					<li class="mt5">
+						<p class="station_feature_footer"><b class="colorBlack">
+								To provide and maintain our Service, </b> including to monitor the usage of our Service.
+						</p>
+					</li>
+
+					<li class="mt5">
+						<p class="station_feature_footer"><b class="colorBlack">
+								To manage Your Account: </b> to manage Your registration as a user of the Service. The
+							Personal Data You provide can give You access to different functionalities of the Service
+							that are available to You as a registered user.</p>
+					</li>
+
+					<li class="mt5">
+						<p class="station_feature_footer"><b class="colorBlack">
+								For the performance of a contract: </b> the development, compliance and undertaking of
+							the
+							purchase contract for the products, items or services You have purchased or of any other
+							contract with Us through the Service.</p>
+					</li>
+
+					<li class="mt5">
+						<p class="station_feature_footer"><b class="colorBlack">
+								To contact You: </b> To contact You by email, telephone calls, SMS, or other equivalent
+							forms
+							of electronic communication, such as a mobile application's push notifications regarding
+							updates or informative communications related to the functionalities, products or
+							contracted services, including the security updates, when necessary or reasonable for
+							their implementation.</p>
+					</li>
+
+					<li class="mt5">
+						<p class="station_feature_footer"><b class="colorBlack">
+								To provide You </b> with news, special offers and general information about other goods,
+							services and events which we offer that are similar to those that you have already
+							purchased or enquired about unless You have opted not to receive such information.</p>
+					</li>
+
+					<li class="mt5">
+						<p class="station_feature_footer"><b class="colorBlack">
+								To manage Your requests: </b> To attend and manage Your requests to Us.</p>
+					</li>
+
+					<li class="mt5">
+						<p class="station_feature_footer"><b class="colorBlack">
+								For business transfers: </b> We may use Your information to evaluate or conduct a
+							merger,
+							divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some
+							or all
+							of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar
+							proceeding, in which Personal Data held by Us about our Service users is among the
+							assets transferred.</p>
+					</li>
+
+					<li class="mt5">
+						<p class="station_feature_footer"><b class="colorBlack">
+								For other purposes: </b> We may use Your information for other purposes, such as data
+							analysis, identifying usage trends, determining the effectiveness of our promotional
+							campaigns and to evaluate and improve our Service, products, services, marketing and your
+							experience.</p>
+					</li>
+
+				</ul>
+				</p>
+
+				<p class="station_feature_sub_header mt30">We may share Your personal information in the following
+					situations:</p>
+
+				<p class="station_feature_footer">
+				<ul>
+					<li class="mt5">
+						<p class="station_feature_footer">
+							<b class="colorBlack">
+								With Service Providers:
+							</b>
+							We may share Your personal information with Service Providers to monitor and analyze the use
+							of our Service, to contact You.
+						</p>
+
+					</li>
+
+					<li class="mt5">
+						<p class="station_feature_footer">
+							<b class="colorBlack">
+								For business transfers:
+							</b>
+							We may share or transfer Your personal information in connection with, or during
+							negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a
+							portion of Our business to another company.
+						</p>
+
+					</li>
+
+					<li class="mt5">
+						<p class="station_feature_footer">
+							<b class="colorBlack">
+								With Affiliates:
+							</b>
+							We may share Your information with Our affiliates, in which case we will require those
+							affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other
+							subsidiaries, joint venture partners or other companies that We control or that are under
+							common control with Us.
+						</p>
+
+					</li>
+
+					<li class="mt5">
+						<p class="station_feature_footer">
+							<b class="colorBlack">
+								With business partners:
+							</b>
+							We may share Your information with Our business partners to offer You certain products,
+							services or promotions.
+						</p>
+
+					</li>
+
+					<li class="mt5">
+						<p class="station_feature_footer">
+							<b class="colorBlack">
+								With other users:
+							</b>
+							when You share personal information or otherwise interact in the public areas with other
+							users, such information may be viewed by all users and may be publicly distributed outside.
+							If You interact with other users or register through a Third-Party Social Media Service,
+							Your contacts on the Third-Party Social Media Service may see Your name, profile, pictures
+							and description of Your activity. Similarly, other users will be able to view descriptions
+							of Your activity, communicate with You and view Your profile.
+						</p>
+
+					</li>
+
+					<li class="mt5">
+						<p class="station_feature_footer">
+							<b class="colorBlack">
+								With Your consent:
+							</b>
+							We may disclose Your personal information for any other purpose with Your consent.
+						</p>
+
+					</li>
+
+				</ul>
+				</p>
+
+			</div>
+
+		</div>
+
+
+		<div class="container-fluid sectionContentContainer">
+
+			<p class="station_feature_header mt30">Retention of Your Personal Data</p>
+			<p class="station_feature_footer">
+				The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in
+				this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with
+				our legal obligations (for example, if we are required to retain your data to comply with applicable
+				laws), resolve disputes, and enforce our legal agreements and policies.</p>
+			<br />
+			<p class="station_feature_footer">
+				The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained
+				for a shorter period of time, except when this data is used to strengthen the security or to improve the
+				functionality of Our Service, or We are legally obligated to retain this data for longer time periods.
+			</p>
+
+		</div>
+
+
+		<div class="container-fluid sectionContentContainer">
+
+			<p class="station_feature_header">Transfer of Your Personal Data</p>
+			<p class="station_feature_footer">
+				Your information, including Personal Data, is processed at the Company's operating offices and in any
+				other places where the parties involved in the processing are located. It means that this information
+				may be transferred to — and maintained on — computers located outside of Your state, province, country
+				or other governmental jurisdiction where the data protection laws may differ than those from Your
+				jurisdiction.
+			</p>
+			<br />
+			<p class="station_feature_footer">
+				Your consent to this Privacy Policy followed by Your submission of such information represents Your
+				agreement to that transfer.
+			</p>
+			<br />
+			<p class="station_feature_footer">
+				The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in
+				accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an
+				organization or a country unless there are adequate controls in place including the security of Your
+				data and other personal information.
+			</p>
+
+		</div>
+
+
+		<div class="container-fluid sectionContentContainer">
+
+			<p class="station_feature_header">Disclosure of Your Personal Data</p>
+
+			<div class="ml15">
+
+				<p class="station_feature_sub_header mt10">Business Transactions</p>
+				<p class="station_feature_footer">
+					If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be
+					transferred. We will provide notice before Your Personal Data is transferred and becomes subject to
+					a different Privacy Policy.
+				</p>
+			</div>
+
+			<div class="ml15">
+
+				<p class="station_feature_sub_header mt10">Law enforcement</p>
+				<p class="station_feature_footer">
+					Under certain circumstances, the Company may be required to disclose Your Personal Data if required
+					to do so by law or in response to valid requests by public authorities (e.g. a court or a government
+					agency).
+				</p>
+			</div>
+
+			<div class="ml15">
+
+				<p class="station_feature_sub_header mt10">Other legal requirements</p>
+				<p class="station_feature_footer">
+					The Company may disclose Your Personal Data in the good faith belief that such action is necessary
+					to:
+				</p>
+
+				<ul>
+					<li>
+						<p class="station_feature_footer">
+							Comply with a legal obligation.
+						</p>
+
+					</li>
+
+					<li>
+						<p class="station_feature_footer">
+							Protect and defend the rights or property of the Company.
+						</p>
+
+					</li>
+
+					<li>
+						<p class="station_feature_footer">
+							Prevent or investigate possible wrongdoing in connection with the Service.
+						</p>
+
+					</li>
+
+					<li>
+						<p class="station_feature_footer">
+							Protect the personal safety of Users of the Service or the public.
+						</p>
+
+					</li>
+
+					<li>
+						<p class="station_feature_footer">
+							Protect against legal liability.
+						</p>
+
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+
+		<div class="container-fluid sectionContentContainer">
+			<p class="station_feature_header">Security of Your Personal Data</p>
+			<p class="station_feature_footer">
+				The security of Your Personal Data is important to Us, but remember that no method of transmission over
+				the Internet, or method of electronic storage is 100% secure. While We strive to use commercially
+				acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.
+			</p>
+		</div>
+
+
+		<div class="container-fluid sectionContentContainer">
+			<p class="station_feature_header">Children's Privacy</p>
+			<p class="station_feature_footer">
+				Our Service does not address anyone under the age of 13. We do not knowingly collect
+				personally identifiable information from anyone under the age of 13. If You are a parent or
+				guardian and You are aware that Your child has provided Us with Personal Data, please
+				contact Us. If We become aware that We have collected Personal Data from anyone under the
+				age of 13 without verification of parental consent, We take steps to remove that information
+				from Our servers.
+			</p>
+			<p class="station_feature_footer">
+				If We need to rely on consent as a legal basis for processing Your information and Your country
+				requires consent from a parent, We may require Your parent's consent before We collect and
+				use that information.
+			</p>
+		</div>
+
+
+		<div class="container-fluid sectionContentContainer">
+			<p class="station_feature_header">Links to Other Websites</p>
+			<p class="station_feature_footer">
+				Our Service may contain links to other websites that are not operated by Us. If You click on a
+				third party link, You will be directed to that third party's site. We strongly advise You to review
+				the Privacy Policy of every site You visit.
+			</p>
+			<p class="station_feature_footer">
+				We have no control over and assume no responsibility for the content, privacy policies or
+				practices of any third party sites or services.
+			</p>
+		</div>
+
+
+		<div class="container-fluid sectionContentContainer">
+			<p class="station_feature_header">Changes to this Privacy Policy</p>
+			<p class="station_feature_footer">
+				We may update Our Privacy Policy from time to time. We will notify You of any changes by
+				posting the new Privacy Policy on this page.
+			</p>
+			<p class="station_feature_footer">
+				We will let You know via email and/or a prominent notice on Our Service, prior to the change
+				becoming effective and update the "Last updated" date at the top of this Privacy Policy.
+			</p>
+			<p class="station_feature_footer">
+				You are advised to review this Privacy Policy periodically for any changes. Changes to this
+				Privacy Policy are effective when they are posted on this page.
+			</p>
+		</div>
+
+
+		<div class="container-fluid sectionContentContainerLast">
+
+			<p class="station_feature_header">Contact Us</p>
+
+			<ul>
+				<li class="mt5">
+					<p class="station_feature_footer">
+						By email: support@sheru.se
+					</p>
+
+				</li>
+
+				<li class="mt5">
+					<p class="station_feature_footer">
+						By Address: 201, Aggarwal Plaza, CU block, Pitampura, Delhi-110034
+					</p>
+
+				</li>
+
+				<li class="mt5">
+					<p class="station_feature_footer">
+						By phone : +91 011 41133961
+					</p>
+
+				</li>
+
+			</ul>
+
+		</div>
+
+
+	</div>
+
+
+
+
+
+	<style type="text/css">
+		.sectionFooter_containerOuter {
+			background-color: #f2f8fc;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+
+		/* Top container */
+		.sectionFooter_containerTopOuter {
+			width: 100%;
+			position: relative;
+			padding: 0px;
+			margin: 0px;
+			position: relative;
+		}
+
+		.sectionFooter_containerTopInner {
+			display: flex;
+			padding: 0px;
+			margin: 0px;
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.sectionFooter_containerTopContent {
+			margin: 0px;
+			visibility: visible;
+			animation-delay: 0.2s;
+			animation-name: fadeInLeft;
+			padding-left: 30px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			padding-right: 30px;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.sectionFooter_containerTopContentGap {
+			width: 2px;
+			height: 15px;
+			margin-left: 10px;
+			margin-right: 10px;
+			background-color: gray;
+		}
+
+		.sectionFooter_containerTopContentText {
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			font-size: 150%;
+			font-weight: normal;
+		}
+
+
+		/* Bottom container */
+		.sectionFooter_containerBottom {
+			width: 100%;
+			position: relative;
+		}
+
+		/* Left side row */
+		.sectionFooter_bottomRowLeftContainerOuter {
+			display: flex;
+			padding: 0px;
+			margin: 0px;
+			position: relative;
+			flex-direction: row;
+			align-items: center;
+		}
+
+		.sectionFooter_bottomRowLeftContainerInner {
+			display: flex;
+			justify-content: center;
+			padding-bottom: 5px;
+			padding-top: 5px;
+			min-height: 45px;
+			padding-left: 0px;
+			padding-right: 0px;
+			margin: 0px;
+		}
+
+		.sectionFooter_bottomRowLeftLogoContainerOuter {
+			visibility: visible;
+			animation-delay: 0.2s;
+			animation-name: fadeInLeft;
+		}
+
+		.sectionFooter_bottomRowLeftLogoContainerInner {
+			display: flex;
+			flex-direction: row;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		.sectionFooter_bottomRowLeftLogoAnchor {
+			text-decoration: none;
+		}
+
+		.sectionFooter_bottomRowLeftLogoImage {
+			height: 45px;
+			margin-left: 10px;
+			width: auto;
+		}
+
+
+		/* Middle side row */
+		.sectionFooter_bottomRowMiddleContainerOuter {
+			display: flex;
+			position: relative;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			padding: 0px;
+			margin: 0px;
+		}
+
+		.sectionFooter_bottomRowMiddleContainerInner {
+			display: flex;
+			justify-content: center;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			margin: 0;
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+
+		.sectionFooter_bottomRowMiddleContentContainerOuter {
+			visibility: visible;
+			animation-delay: 0.2s;
+			animation-name: fadeInLeft;
+		}
+
+		.sectionFooter_bottomRowMiddleContentContainerInner {
+			min-height: 45px;
+		}
+
+		.sectionFooter_bottomRowMiddleImage1 {
+			width: 30px;
+			height: 30px;
+		}
+
+		.sectionFooter_bottomRowMiddleImage2 {
+			width: 30px;
+			height: 30px;
+			margin-left: 10px
+		}
+
+		.sectionFooter_bottomRowMiddleImage3 {
+			width: 35px;
+			height: 35px;
+			margin-left: 10px
+		}
+
+
+
+		/* Right side row */
+		.sectionFooter_bottomRowRightContainerOuter {
+			padding: 0px;
+			margin: 0px;
+			display: flex;
+			flex-direction: row;
+			position: relative;
+		}
+
+		.sectionFooter_bottomRowRightContainerInner {
+			font-family: fontRegular;
+			display: flex;
+			flex-direction: row;
+			font-weight: normal;
+			align-items: center;
+			justify-content: right;
+			min-height: 45px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+
+		.sectionFooter_bottomRowRightText {
+			margin-left: 10px;
+			font-family: fontRegular;
+			font-weight: lighter;
+		}
+	</style>
+
+	<footer class="container-fluid sectionFooter_containerOuter">
+
+		<div class="row sectionFooter_containerTopOuter">
+			<div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row sectionFooter_containerTopInner">
+				<div class="row sectionFooter_containerTopContent">
+
+
+
+					<a href="index.html">
+						<p class="f_600 f_size_18 imageLink2 sectionFooter_containerTopContentText">Home</p>
+					</a>
+
+					<p class="sectionFooter_containerTopContentGap"></p>
+
+					<a href="terms_conditions.html">
+						<p class="f_600 f_size_18 imageLink2 sectionFooter_containerTopContentText">Terms &amp;
+							conditions</p>
+					</a>
+
+					<!-- <a href="privacy_policy.html">
+            <p class="f_600 f_size_18 imageLink2 sectionFooter_containerTopContentText">Privacy policy</p>
+          </a> -->
+
+					<p class="sectionFooter_containerTopContentGap"></p>
+
+					<a href="mailto:support@sheru.se" target="_blank">
+						<p class="f_600 f_size_18 imageLink2 sectionFooter_containerTopContentText">support@sheru.se</p>
+					</a>
+
+					<p class="sectionFooter_containerTopContentGap"></p>
+
+					<a href="tel:01141133961" target="_blank">
+						<p class="f_600 f_size_18 imageLink2 sectionFooter_containerTopContentText">011 41133961</p>
+					</a>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="row sectionFooter_containerBottom" id="div_cover_about_sheru">
+
+			<div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 row sectionFooter_bottomRowLeftContainerOuter"
+				id="div_footer_sheru_logo">
+				<div class="sectionFooter_bottomRowLeftContainerInner">
+					<div class="f_widget company_widget wow fadeInLeft sectionFooter_bottomRowLeftLogoContainerOuter"
+						data-wow-delay="0.2s">
+						<a class="sectionFooter_bottomRowLeftLogoAnchor" href="index.html">
+							<div class="sectionFooter_bottomRowLeftLogoContainerInner">
+								<img loading="lazy" src="image/logo/sheru_logo_new.svg"
+									class="sectionFooter_bottomRowLeftLogoImage" />
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 row sectionFooter_bottomRowMiddleContainerOuter"
+				id="div_footer_social">
+				<div class="sectionFooter_bottomRowMiddleContainerInner">
+					<div class="f_widget company_widget wow fadeInLeft sectionFooter_bottomRowMiddleContentContainerOuter"
+						data-wow-delay="0.2s">
+						<div class="f_social_icon sectionFooter_bottomRowMiddleContentContainerInner">
+
+							<a href="https://www.facebook.com/SheruRoars" target="_blank">
+								<img loading="lazy" src="image/social/facebook.png"
+									class="imageLink sectionFooter_bottomRowMiddleImage1" />
+							</a>
+							<a href="https://www.instagram.com/sheruroar/" target="_blank">
+								<img loading="lazy" src="image/social/instagram.png"
+									class="imageLink sectionFooter_bottomRowMiddleImage2" />
+							</a>
+							<a href="https://twitter.com/sheruRoar" target="_blank">
+								<img loading="lazy" src="image/social/twitter.png"
+									class="imageLink sectionFooter_bottomRowMiddleImage2" />
+							</a>
+							<a href="https://www.linkedin.com/company/sheru/" target="_blank">
+								<img loading="lazy" src="image/social/linkedin.png"
+									class="imageLink sectionFooter_bottomRowMiddleImage2" />
+							</a>
+							<a href="https://medium.com/@sheruenergy" target="_blank">
+								<img loading="lazy" src="image/social/medium.png"
+									class="imageLink sectionFooter_bottomRowMiddleImage2" />
+							</a>
+							<a href="https://open.spotify.com/show/1dFLKFtTF7Umo3eakpxYM4" target="_blank">
+								<img loading="lazy" src="image/social/spotify.png"
+									class="imageLink sectionFooter_bottomRowMiddleImage2" />
+							</a>
+							<a href="https://www.youtube.com/@sheruroar9665" target="_blank">
+								<img loading="lazy" src="image/social/youtube_v3.png"
+									class="imageLink sectionFooter_bottomRowMiddleImage3" />
+							</a>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 row sectionFooter_bottomRowRightContainerOuter"
+				id="div_footer_copyright">
+				<div class="sectionFooter_bottomRowRightContainerInner">
+					<p class="f_600 f_size_16 sectionFooter_bottomRowRightText">
+						Sheru @ 2019. All right reserved</p>
+				</div>
+			</div>
+
+		</div>
+
+	</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+body {
+  font-size: 100%;
+  padding:0px; margin: 0px; display: flex; flex-direction: column; align-items: center; justify-content: center;
+}
+
+.teamSection {
+  position: relative;  
+  margin: 0px; 
+  padding: 0px; 
+  width: 100%;
+}
+
+.employeeName {
+  color: black; 
+  margin-top: 15px; 
+  margin-bottom: 0px; 
+  padding: 0px; 
+  font-size: 90%;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.employeeTag {
+  color: gray; 
+  font-size: 80%;
+  margin-top: 0px;
+  padding: 0px;
+  margin-bottom: 2.5px;
+}
+
+.employeeCard {
+  width: 100%; 
+  display:flex; 
+  flex-direction: column; 
+  align-items: left; 
+  justify-content: left; 
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.employeeContainer {
+  padding:0px; 
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.employeeImage {
+  width: 100%;
+}
+
+.employeeDetails {
+  width: 100%;
+}
+
+.imageLink{
+  transition: transform .2s; /* Animation */
+}
+.imageLink:hover{
+  transform: scale(1.15); 
+}
+
+.sectionBody {
+  width: 100%; 
+  font-size: 150%;
+  padding: 0px;
+  margin-left: 0px; 
+  margin-right: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sectionBody2 {
+  width: 100%; 
+  font-size: 150%;
+  padding: 0px;
+  margin-left: 0px; 
+  margin-right: 0px;
+  margin-top: 20px;
+}
+
+.employeeOuterContainer{
+  padding: 0px;
+  margin: 0px;
+}
+
+.sectionHeader {
+  font-size: 175%; 
+  font-family: fontMedium; 
+  margin-top: 50px; 
+  margin-left: 15px; 
+  margin-right: 15px; 
+  margin-bottom: 20px;
+}
+
+.pageHeaderContainer {
+  margin-bottom: 50px; margin-top: 50px; margin-left: 0px; margin-right: 0px; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0px; width: 100%;
+}
+
+#pageHeader1 {
+  font-size:350%; font-family: fontBold;
+}
+
+#pageHeader1Logo {
+  margin-left: 7.5px; color: #009aef; font-size: 112.5%; font-weight: bold; font-family: fontRegular; padding: 0px; margin: 0px;
+}
+
+#pageHeader2 {
+  font-size: 250%; font-family: fontMedium; margin-top: 0px; margin-left: 15px; margin-right: 15px; text-align: center; color: gray;
+}
+
+.imgTwitter {
+  width: 22.5px; height: 22.5px;
+}
+
+.imgLinkedIn {
+  width: 22.5px; height: 22.5px; margin-left: 5px
+}
+
+.anchorEmployeeSocial {
+  cursor: pointer; text-decoration:none
+}
